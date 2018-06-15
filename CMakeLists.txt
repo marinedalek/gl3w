@@ -11,6 +11,7 @@ set(HEADER_DIR ${CMAKE_CURRENT_BINARY_DIR}/include)
 set(HEADER_FILES
 	"${HEADER_DIR}/GL/gl3w.h"
 	"${HEADER_DIR}/GL/glcorearb.h"
+	"${HEADER_DIR}/KHR/khrplatform.h"
 )
 
 set(SOURCE_FILES
