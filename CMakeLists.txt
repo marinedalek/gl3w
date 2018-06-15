@@ -29,6 +29,7 @@ add_custom_command(
 		"${SOURCE_DIR}/gl3w.c"
 		"${HEADER_DIR}/GL/gl3w.h"
 		"${HEADER_DIR}/GL/glcorearb.h"
+		"${HEADER_DIR}/KHR/khrplatform.h"
 	COMMAND python ${CMAKE_CURRENT_SOURCE_DIR}/gl3w_gen.py
 	DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/gl3w_gen.py
 	WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
@@ -41,6 +42,7 @@ add_custom_target(
 		"${SOURCE_DIR}/gl3w.c"
 		"${HEADER_DIR}/GL/gl3w.h"
 		"${HEADER_DIR}/GL/glcorearb.h"
+		"${HEADER_DIR}/KHR/khrplatform.h"
 )
 
 # create gl3w target
